@@ -29,7 +29,7 @@ const toggleItems = () => {
 </script>
 
 <style>
-.dropdown {
+/* .dropdown {
   border: 1px solid var(--zano-gray);
   position: relative;
   width: 100%;
@@ -63,7 +63,7 @@ const toggleItems = () => {
 .dropdown__selected-item:hover,
 .dropdown__list-item:hover {
   background-color: var(--zano-gray-light1);
-}
+} */
 
 .grow-enter-from {
   transform: translateY(-0.5rem);
