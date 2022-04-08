@@ -24,10 +24,10 @@ const devConfig = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: 'helloVue',
+      name: 'vue',
       filename: 'remoteEntry.js',
       exposes: {
-        './HelloVueApp': './src/bootstrap',
+        './VueApp': './src/bootstrap',
       },
       shared: packageJson.dependencies,
     }),
