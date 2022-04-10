@@ -11,11 +11,7 @@
         class="layout__hide-sidebar"
         @click="hideSidebar"
       >
-        <span
-          class="oi oi-chevron-left"
-          title="hide sidebar"
-          aria-hidden="true"
-        ></span>
+        <span className="oi" data-glyph="chevron-left"></span>
       </button>
     </Transition>
     <Transition name="fade" @after-leave="onAfterRevealSidebarButtonLeave">
@@ -24,7 +20,7 @@
         class="layout__show-sidebar"
         @click="showSidebar"
       >
-        <span class="oi oi-menu" title="show sidebar" aria-hidden="true"></span>
+        <span className="oi" data-glyph="menu"></span>
       </button>
     </Transition>
 

@@ -2,9 +2,10 @@
   <div class="dropdown" @click="toggleItems">
     <div class="dropdown__selected-item">
       <span class="dropdown__selected-text"> Dropdown</span>
+
       <span
-        class="oi dropdown__caret"
-        :class="isShowingItems ? 'oi-caret-top' : 'oi-caret-bottom'"
+        class="oi"
+        :data-glyph="isShowingItems ? 'caret-top' : 'caret-bottom'"
       ></span>
     </div>
     <Transition name="grow">
